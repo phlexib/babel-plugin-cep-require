@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`first 2 requires to be replace with window.cep_node.require 1`] = `
+"//@ts-ignore-cep
+const fs = window.cep_node.require(\\"fs\\"); //@ts-ignore-cep
+
+const path = window.cep_node.require(\\"path\\"); //@ts-ignore
+
+const dateFns = require(\\"date-fns\\");"
+`;

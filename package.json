@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-cep-require",
+  "version": "1.0.0",
+  "description": "transform node require into window.cep_node.require for Adobe CEP panels",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cep",
+    "adobe",
+    "require",
+    "node"
+  ],
+  "author": "Ben Rohel",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "babel-plugin-tester": "^6.4.0",
+    "jest": "^24.8.0"
+  }
+}
