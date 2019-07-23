@@ -1,8 +1,8 @@
-export default function(babel) {
+module.exports.cepRequire = function(babel) {
   const { types: t } = babel;
 
   return {
-    name: "transformRequire",
+    name: "cep-require",
     visitor: {
       VariableDeclaration(path, state) {
         if (path.node.leadingComments) {
@@ -15,4 +15,4 @@ export default function(babel) {
       }
     }
   };
-}
+};
